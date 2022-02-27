@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:file:/Users/smile/Desktop/ToolApi/db/tool_api_test
+    url: jdbc:h2:file:/Users/chenjian/Documents/qushuiyinba/qushuiyin_server/db/tool_api_test
     username: root
     password: 123456
   h2:
@@ -15,8 +15,8 @@ spring:
 server:
   port: 10521
 wx:
-  appId: #填写你自己的小程序appId
-  secret: #填写你自己的小程序secret
+  appId: wxef57d5a4c84a56da #填写你自己的小程序appId
+  secret: 3190b91a1698be2f085be36a598fb5e0 #填写你自己的小程序secret
 logging:
   file:
     name: toolApi.log
